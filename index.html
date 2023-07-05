@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projeto Thank You</title>
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/x-icon"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="card__content card__contente--active">
+        <div class="review">
+          <img src="./images/icon-star.svg" alt="" class="review__star" />
+          <div>
+            <h1 class="review__title">Como fizemos?</h1>
+            <p class="review__text">
+              Por favor, deixe-nos saber como fizemos com o seu pedido de
+              suporte. Todos os comentários são apreciados para nos ajudar a
+              melhorar nossa oferta!
+            </p>
+            <div class="review__ratingButtons">
+              <button class="review__ratingButtons__item">1</button>
+              <button class="review__ratingButtons__item">2</button>
+              <button class="review__ratingButtons__item">3</button>
+              <button class="review__ratingButtons__item">4</button>
+              <button class="review__ratingButtons__item">5</button>
+            </div>
+            <button class="review__submitButton">Enviar</button>
+          </div>
+        </div>
+      </div>
+      <div class="card__content">
+        <div class="thankyou">
+          <img
+            src="./images/illustration-thank-you.svg"
+            class="thankyou__i"alt=""/>
+        </div>
+        <div class="thankyou__label">
+          você selecionou<span id="rating">0</span> out 5
+        </div>
+        <h1 class="thankyou__title">Obrigado</h1>
+        <p class="thankyou__text">
+          Agradecemos por dedicar seu tempo para avaliar. Se você precisar de
+          mais suporte, não hesite em entrar em contato!
+        </p>
+      </div>
+    </div>
+    <script src="./scriptt.js"></script>
+  </body>
+</html>
