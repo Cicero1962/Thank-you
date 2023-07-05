@@ -170,22 +170,22 @@ body {
   align-items: center;
   padding: 0px 20px;
   padding-top: 3px;
-  box-sizing: border-box;
   color: var(--color-orange);
   font-family: var(--font-family-default);
   font-size: var(--font-size-default);
   background-color: rgba(255, 255, 255, .1);
   border-radius: 20px;
   white-space: pre-wrap;
-  margin-top: 25px;
+  margin-top: 20px;
 }
+
 
 .thankyou__title {
   font-family: var(--font-family-default);
   font-weight: var(--font-weight-bold);
   font-size: 25px;
   color: var(--color-white);
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 .thankyou__text {
@@ -193,7 +193,7 @@ body {
   font-weight: var(--font-weight-default);
   font-size: var(--font-size-default);
   color: var(--color-medium-grey);
-  margin-top: 15px;
+  margin-top: 10px;
   line-height: 1.4;
   text-align: center;
 }
